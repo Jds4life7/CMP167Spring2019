@@ -8,7 +8,13 @@ class TestDMV {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		
+		System.out.print("Testing for calculateExpirationDate");
+		assert((DMV.calculateExpirationDate(2014)!=2024)):"Test has not Passed";
+		assert((DMV.calculateExpirationDate(2014)!=2023)):"Test has not Passed";
 	}
-
+	@Test
+	void Test2() {
+	
+	}
 }

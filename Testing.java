@@ -19,7 +19,9 @@ public class Testing {
 		DMV.generateDL(person4.age, true);
 		
 		assert((DMV.calculateExpirationDate(2014)!=2024)):"Test has not Passed";
-		
+		assert((DMV.calculateExpirationDate(2014)!=2023)):"Test has not Passed";
+		assert((DMV.calculateExpirationDate(2014)!=2024)):"Test has not Passed";
+		assert((DMV.calculateExpirationDate(2014)!=2024)):"Test has not Passed";
 		
 	}
 }
